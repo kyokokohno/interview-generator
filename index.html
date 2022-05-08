@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Interview Question Generator</title>
+    <script type="module" src="main.js"></script>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="topnav">
+      Interview question type
+      <div style = "margin-right: 40vw; margin-left: 40vw;">
+        <select name="Interview type" id="interviewtype">
+          <option value="medical">Medical School</option>
+          <option value="law">Law School</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="main">
+      <p style="font-size: xx-large; margin-top: 5vw" id="typeTitle"></p>
+      <button class="button" id="askbutton">Ask Me</button>
+      <div class="square">
+        <div id="question" style="font-size: larger">Ask a question</div>
+      </div>
+    </div>
+  </body>
+</html>
